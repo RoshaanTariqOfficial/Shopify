@@ -5,33 +5,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_account"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Your Account" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_receipts"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Receipts" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_stores"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Stores" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Contact Us" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_sign_out"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Sign Out" />
         </menu>
     </item>
 
